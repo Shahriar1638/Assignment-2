@@ -1,0 +1,324 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* #########   NAV PART    ############ */
+.nav-left > ul {
+    display: flex;
+    align-items: center;
+}
+nav h3{
+    color: #0B0223;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 240px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 2.8rem ;
+    font-weight: 700;
+}
+nav li{
+    color: #0B0223;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 1.8rem;
+}
+nav a{
+    text-decoration: none;
+}
+.nav-btn{
+    color: #0B0223;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px;
+    width: 16.375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgba(11, 2, 35, 0.10);
+}
+.nav-btn>img{
+    width: 1.8rem;
+    height: 1.5rem;
+    object-fit: cover;
+}
+/* #########   BANNER PART    ############ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 240px;
+}
+.text1{
+    color: #0B0223;   
+    font-size: 3rem;
+    font-weight: 600;
+}
+.color-text{ 
+    font-size: 5.8rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.li-text{
+    display: flex;
+    align-items: center;
+    color: #534C64;
+    font-size: 1.25rem;
+}
+.li-text>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+}
+.banner-img > img{
+    width: 45rem;
+    height: 42.5rem;
+    flex-shrink: 0;
+}
+.button > button{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.3rem 2.5rem;
+    margin-top: 2.5rem;
+    margin-right: 1.5rem;
+    border: 0px;
+    border-radius: 3rem;
+}
+.b1{
+    background: #4EC5F7;
+}
+.b2{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+/* #########   Section 1    ############ */
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 240px;
+}
+.sec1-head{
+    margin-bottom: 1.5rem;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec1-text{
+    color: #534C64;
+    font-size: 1.125rem;
+    text-align: right;
+}
+.sec1-img{
+    width: 54.25rem;
+    height: 30.5rem;
+}
+#btn{
+    margin-top: 2rem;
+    margin-right: 0px;
+}
+.sec1-motto{
+    margin-top: 1.5rem;
+    font-size: 1.35rem;
+    text-align: right;
+    color: #413c4e;
+}
+.sec1-motto2{
+    text-align: right;
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* #########   Section 2    ############ */
+.sec2{
+    padding: 120px 240px;
+}
+.sec2-head-text{
+    text-align: center;
+}
+.sec2-head{
+    color: #0B0223;;   
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sec2-head > span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec2-text{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.game-video-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.video1{
+    margin-right: 1.5rem;
+}
+.video-text{
+    margin-top: 1.5rem;
+    color: #534C64;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.thumbnail-warp{
+    width: 21.375rem;
+    height: 25rem;
+    border: 0px;
+    border-radius: 1rem;
+}
+.thumbnails:hover{
+    cursor: pointer;
+    filter: brightness(0.4);
+}
+/* #########   Section 3    ############ */
+.sec3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 240px;
+}
+.sec3-text{
+    text-align: right;
+    margin-right: 20rem;
+}
+.sec3-head{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    margin-bottom: 1.5rem;
+}
+.sec3-head> span{
+    background: #F948B2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec3-para{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.sec3-img{
+    width: 48rem;
+    height: 43.325rem;
+}
+.sec3-img1{
+    width: 36rem;
+    height: 36.650rem;
+}
+.sec3-img2{
+    width: 18rem;
+    height: 21rem;
+    position: relative;
+    bottom: 16rem;
+    right: 8rem;
+}
+/* #########   Section 4    ############ */
+.sec4{
+    height: 20rem;
+    padding: 120px 240px;
+}
+.genre-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.game-tags{
+    display: flex;
+    align-items: center;
+    padding-left: 0.6rem;
+    width: 15rem;
+    height: 5rem;
+}
+.genre-name{
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.game-icon{
+    width: 3.75rem;
+    height: 3.75rem;
+    
+}
+.game-tags:hover{
+    cursor: pointer;
+    border: 2px solid #FF42A5;
+    border-radius: 3.125rem;
+    color: #FF42A5;
+}
+/* #########   Footer    ############ */
+footer{
+    padding-top: 7.5rem;
+    padding-bottom: 8rem;
+    background-color: #0B0223;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 52rem;
+}
+.text{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.about-privacy-terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 43rem;
+}
+.text2{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+}
+.social-media img{
+    height: 2.3rem;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 38rem;
+}
