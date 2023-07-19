@@ -55,6 +55,9 @@ nav a{
     height: 1.5rem;
     object-fit: cover;
 }
+.nav-btn,.b1,.b2,.social-media-icon:hover{
+    cursor: pointer;
+}
 /* #########   BANNER PART    ############ */
 .banner{
     display: flex;
@@ -314,11 +317,11 @@ footer{
     font-size: 1rem;
 }
 .social-media img{
-    height: 2.3rem;
+    height: 2rem;
 }
 .social-media{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 38rem;
+    width: 36rem;
 }

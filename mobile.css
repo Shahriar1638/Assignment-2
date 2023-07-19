@@ -3,10 +3,42 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 3.5rem;
     }
-    .nav-left ul li{
+    .nav-left ul{
         display: flex;
         flex-direction: column;
         text-align: center;
+        gap: 2rem;
+    }
+    .banner{
+        padding: 20px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .banner-img img{
+        width: 355px;
+        height: 340px;
+    }
+    .button{
+        display: flex;
+        width: 40%;
+        height: 40%;
+        justify-content: space-between;
+    }
+    .sec2{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .sec2-head, .sec2-text, .video-text{
+        text-align: center;
+    }
+    .game-video-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
     }
 }
